@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 2f;
     public float waitTime = 0.3f;
     public float turnSpeed = 90f;
 
