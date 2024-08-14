@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ namespace SunTemple{
 	public class CharController_Motor : MonoBehaviour {
 
 		public float speed = 10.0f;
+		public float jumpHeight = 5.0f;
+	
 		public float sensitivity = 60.0f;
 		CharacterController character;
 		public GameObject cam;
@@ -40,6 +43,8 @@ namespace SunTemple{
 		void FixedUpdate(){
 			moveFB = Input.GetAxis ("Horizontal") * speed;
 			moveLR = Input.GetAxis ("Vertical") * speed;
+
+			
 
 			rotHorizontal = Input.GetAxisRaw ("Mouse X") * sensitivity;
 			rotVertical = Input.GetAxisRaw ("Mouse Y") * sensitivity;
