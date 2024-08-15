@@ -67,10 +67,10 @@ In **Forest Venture**, players will eventually manage a business venture within 
 
 ## Credits
 
-- **Game Design**: [Your Name]
-- **Programming**: [Your Name]
-- **Art and Assets**: [Your Name/Team Members]
-- **Music and Sound Effects**: [Your Name/Team Members]
+- **Game Design**: SAI HARISH, ADNAN KHAN
+- **Programming**: SAI HARISH, TULASIDHAR, GURU BALAJI
+- **Art and Assets**: KESAVA MANIKANTA, VINAY PALAKONDA
+- **Music and Sound Effects**: SAI HARISH
 
 ## License
 
